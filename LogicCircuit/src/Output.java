@@ -3,7 +3,6 @@
 /**
  * Output gates, a component of a logic circuit simulator.
  * This version is distributed as a solution to Machine Problem 4, Fall 2015.
- * @author Raquib Talukder
  * @version MP4
  */
 
