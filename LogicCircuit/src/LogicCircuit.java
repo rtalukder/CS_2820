@@ -1,7 +1,6 @@
 // LogicCircuit.java
 /**
  * A logic circuit simulator
- * @author Raquib Talukder
  * @version MP3
  */
 
