@@ -17,8 +17,6 @@ import java.util.List;
 
 // Errors.java
 /** Error reporting methods.
- *  @author: Douglas W. Jones
- *  @author: Andy W.M. Arthur
  *  @version: April 9, 2016
  * 
  *  This code is extracted from the April 6, 2016 version of NeuronNetwork.java,
@@ -45,8 +43,6 @@ class Errors {
  *  a Java {@link Scanner}, and if the input does not meet the stated
  *  requirement, report that using a call to the {@code warning} method
  *  in {@link Errors}.
- *  @author Douglas W. Jones 
- *  @author: Andy W.M. Arthur
  *  @version 4/11/2016
  *  @see java.util.Scanner
  *  @see Errors
@@ -172,7 +168,6 @@ class ScanSupport {
 
 // Simulator.java
 /** Framework for discrete event simulation.
- *  @author: Douglas W. Jones
  *  @version: April 21, 2016
  * 
  *  This code is based on the April 20, 2016 lecture notes.
@@ -230,8 +225,6 @@ class Simulator {
 
 // Neuron.java
 /** Neurons, joined by synapses, are the active components of a neuron network.
- *  @author: Douglas W. Jones
- *  @author: Andy W.M. Arthur
  *  @version: April 21, 2016
  *  @see Synapse
  *  @see ScanSupport
@@ -352,8 +345,6 @@ class Neuron {
 
 // Synapse.java
 /** Synapses join neurons and come in several flavors
- *  @author: Douglas W. Jones
- *  @author: Andy W.M. Arthur
  *  @version: April 9, 2016
  *  @see Neuron
  *  @see Synapse
@@ -545,8 +536,6 @@ class PrimarySynapse extends Synapse {
 
 // SecondarySynapse.java
 /** Secondary synapses join neurons to primary synapses
- *  @author: Douglas W. Jones
- *  @author: Andy W.M. Arthur
  *  @version: April 9, 2016
  *  @see Neuron
  *  @see Synapse
@@ -601,8 +590,6 @@ class SecondarySynapse extends Synapse {
 
 // NeuronNetwork.java
 /** NeuronNetwork is the main class that builds the whole model
- *  @author: Douglas W. Jones
- *  @author: Andy W.M. Arthur
  *  @version: April 13, 2016
  *  @see Neuron
  *  @see Synapse
